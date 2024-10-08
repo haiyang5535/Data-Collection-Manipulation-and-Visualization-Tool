@@ -13,3 +13,4 @@ for i in range(len(lst)):
 
 df = pd.DataFrame(data=data)
 df.head(25)
+df.to_csv('company.csv', index=False)
